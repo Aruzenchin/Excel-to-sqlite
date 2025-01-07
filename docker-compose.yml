@@ -1,0 +1,7 @@
+version: '3'
+services:
+  data_import:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./db:/app/db
